@@ -1,0 +1,6 @@
+name: WGRCC
+version: ${project.version}
+main: me.glaremasters.wgrcc.WGRCC
+depend: [WorldGuard]
+authors: [blockslayer22]
+description: WorldGuard will check the region a player is teleporting to before teleporting to check for denied commands
