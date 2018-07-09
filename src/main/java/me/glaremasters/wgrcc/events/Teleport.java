@@ -44,6 +44,7 @@ public class Teleport implements Listener {
                     try {
                         if (commands.contains("back")) {
                             event.setCancelled(true);
+                            list.remove(player.getName());
                         }
                     } catch (NullPointerException e) {
                         return;
